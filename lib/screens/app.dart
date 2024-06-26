@@ -118,22 +118,6 @@ class _MyHomePageState extends State<MyHomePage> {
           tooltip: 'Login',
           child: const Icon(Icons.login),
         ),
-
-        // floatingActionButton: Row(
-        //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        //   crossAxisAlignment: CrossAxisAlignment.end,
-        //   children: <Widget>[
-        //     FloatingActionButton(
-        //       onPressed: () {
-        //         Navigator.pop(context);
-        //         _navigateToUserSearchScreen();
-        //       },
-        //       tooltip: 'toScreenScearch',
-        //       child: const Icon(Icons.add),
-        //     ),
-
-        //   ],
-        // ),
       ),
     );
   }
